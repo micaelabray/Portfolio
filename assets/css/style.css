@@ -1,5 +1,6 @@
 body {
     background-color: gray;
+    font-family: 'PT Sans', sans-serif;
 }
 
 #navBar {
@@ -8,20 +9,18 @@ body {
 
 #profilePicture {
     height:15%;
-    /* margin-right: 10px;
-    padding-right: 10px; */
 }
 
-#portfolio {
-    height: 25%;
-    width: 25%;
-    margin-top: 20px;
+/* #portfolio {
+    height: 40%;
+    width: 40%;
     margin-bottom: 20px;
-}
+} */
 
 h5 {
     background-color: gray;
     border-radius: 5px;
+    padding: 10px;
 }
 
 /* Link colors */
@@ -41,3 +40,16 @@ a:active {
 a:visited {
     color: black;
 }
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    #portfolio {
+        height: 40%;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+  }
