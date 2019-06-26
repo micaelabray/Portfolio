@@ -1,9 +1,43 @@
+body {
+    background-color: gray;
+}
+
 #navBar {
     margin-bottom: 15px;
 }
 
 #profilePicture {
     height:15%;
-    margin-right: 10px;
-    padding-right: 10px;
+    /* margin-right: 10px;
+    padding-right: 10px; */
+}
+
+#portfolio {
+    height: 25%;
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+/* Link colors */
+
+a:link {
+    color:white;
+}
+
+a:hover {
+    color:lightgray
+}
+
+a:active {
+    color:black;
+}
+
+a:visited {
+    color: black;
 }
