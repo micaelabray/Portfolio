@@ -13,6 +13,8 @@ body {
 
 #aboutMe {
     padding-left: 20px;
+    background-color: white;
+    border-radius:5px;
 }
 
 h4 {
