@@ -1,21 +1,44 @@
 body {
-    background-color: gray;
     font-family: 'PT Sans', sans-serif;
+    background-image: url(../images/background.jpg);
 }
 
 #navBar {
     margin-bottom: 15px;
 }
 
+/* About me section */
+
+#aboutSection {
+    margin-bottom: 50px;
+}
+
 #profilePicture {
-    height:15%;
+    height:10%;
 }
 
 #aboutMe {
-    padding-left: 20px;
-    background-color: white;
+    /* padding-left: 20px; */
+    background-color: rgba(255, 255, 255, .60);
     border-radius:5px;
+    margin-left: 40px;
 }
+
+/* Technologies Section */
+
+#technologies {
+    background-color: rgba(255, 255, 255, .60);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* #techHeader {
+    margin-top: 20px;
+} */
+
+/* .tech {
+    text-align: center;
+} */
 
 h4 {
     font-size: 200%;
@@ -25,10 +48,13 @@ h4 {
 #portfolio {
     margin-top: 50px;
     margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, .60);
+    border-radius: 5px;
+    padding:10px;
 }
 
 h5 {
-    background-color: gray;
+    background-color: rgba(255, 255, 255, .60);
     border-radius: 5px;
     padding: 10px;
 }
@@ -56,9 +82,28 @@ a:visited {
     margin-bottom: 20px;
 }
 
-.technologies {
+/* Contact Section */
+#contact {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, .60);
+    border-radius: 5px;
+    padding-top: 10px;   
+}
+
+.contactMe {
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
