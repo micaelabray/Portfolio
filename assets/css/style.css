@@ -110,6 +110,25 @@ a:visited {
     width: 32px;
 }
 
+.left {
+    float: right;
+}
+
+.midLeft {
+    clear: inherit;
+}
+
+.middle {
+    clear: inherit;
+}
+
+.midRight {
+    clear: inherit;
+}
+
+.right {
+    float: left;
+}
 
 
 
