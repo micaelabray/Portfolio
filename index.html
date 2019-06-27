@@ -15,7 +15,7 @@
 </head>
 <body>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navBar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top" id="navBar">
         <a class="navbar-brand" href="index.html">Micaela Bray</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -60,7 +60,7 @@
                 <h4>Technologies</h4>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col-sm-3 col-md-3 col-lg-3 tech">
                 <div class="card" style="width: 50px;">
@@ -143,13 +143,45 @@
         </div>
     </div>
 
-    <!-- Contact -->
-    <div class="container" id="contact">
+    <!-- Say Hi Section -->
+    <div class="container" id="sayHi">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <h4>Contact</h4>
+                <h4>Say Hi!</h4>
             </div>
         </div>
+
+        <!--Contact form-->
+        <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="James Smith">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="validationTextarea">Message</label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Enter text here" required></textarea>
+                <div class="invalid-feedback">
+                Please enter a message in the textarea.
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Contact -->
+    <div class="container" id="contact">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h4>Contact</h4>
+                </div>
+            </div>
+
+        <!-- Social/email contact -->
+
         <div class="row">
             <div class="col-sm-4 col-md-4 col-lg-4 contactMe">
                 <div class="card" style="width: 32px;">
